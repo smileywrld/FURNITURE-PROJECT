@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+	width: 100%;
+	height: 120vh;
+	background: url(/assets/mockup-wall-dark-living-room-interior-background-with-leather-sofa-table-empty-dark-wooden-wall-3d-rendering\ 1.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}
+.navbar h1 {
+	font-size: 50px;
+	font-weight: 500;
+	text-align: left;
+}
+.navbar {
+	padding: 1rem 2rem 0rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	color: #ffffff;
+}
+
+.navbar ul {
+	list-style: none;
+	display: flex;
+	gap: 50px;
+}
+
+.hero-content {
+	margin-top: 13%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.hero-content h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 4rem;
+	text-align: center;
+	color: #ffffff;
+	width: 700px;
+}
+
+.hero-content p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	width: 500px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.hero-content button {
+	width: 152px;
+	height: 50px;
+	border-radius: 13px;
+	background-color: rgba(214, 205, 194, 0.8);
+	font-size: 16px;
+	border: 3px solid white;
+	font-weight: 600;
+}
+
+.about {
+	background-color: rgb(0, 105, 112);
+	width: 60%;
+	margin: auto;
+	border-radius: 20px;
+	position: relative;
+	bottom: 13vh;
+}
+
+.about .intro{
+	padding: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro .line{
+	border-left: solid 1.5px #ffffff;
+	height: 80px;
+}
+
+.intro h3{
+	text-align: center;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.intro p{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #ffffff;
+
+}
