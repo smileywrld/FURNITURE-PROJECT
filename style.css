@@ -203,3 +203,36 @@ body {
 	font-size: 1.3rem;
 	margin-bottom: 3%;
 }
+
+.choose-us {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.choose-items {
+	width: 40%;
+}
+
+.choose-us .choose-items h2 {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 3rem;
+	color: #525252;
+	margin-bottom: 5%;
+}
+
+.choose-us .choose-items ul {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #525252;
+}
+
+.choose-items img {
+	width: 500px;
+	display: block;
+}
