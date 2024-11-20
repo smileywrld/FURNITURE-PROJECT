@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Amazon Ember";
+	src: url(/amazon-ember-webfont/Amazon\ Ember.woff);
+}
+
 * {
 	padding: 0;
 	box-sizing: border-box;
@@ -36,7 +41,7 @@ body {
 }
 
 .hero-content {
-	margin-top: 13%;
+	margin-top: 7%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -46,19 +51,18 @@ body {
 
 .hero-content h2 {
 	font-style: normal;
-	font-weight: 600;
-	font-size: 4rem;
+	font-weight: 700;
+	font-size: 5.5rem;
 	text-align: center;
 	color: #ffffff;
-	width: 700px;
 }
 
 .hero-content p {
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	width: 500px;
+	font-size: 20px;
+	line-height: 30px;
+	width: 600px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -74,36 +78,128 @@ body {
 }
 
 .about {
-	background-color: rgb(0, 105, 112);
-	width: 60%;
-	margin: auto;
-	border-radius: 20px;
-	position: relative;
-	bottom: 13vh;
+	width: 100%;
+	margin-bottom: 5%;
 }
 
-.about .intro{
+.about .intro {
+	background-color: rgb(0, 105, 112);
 	padding: 2rem 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 20px;
+	position: relative;
+	bottom: 13vh;
+	width: 60%;
+	margin: auto;
 }
 
-.intro .line{
+.intro .line {
 	border-left: solid 1.5px #ffffff;
 	height: 80px;
 }
 
-.intro h3{
+.intro h3 {
 	text-align: center;
 	color: #ffffff;
 	font-weight: 700;
 	font-size: 2rem;
 }
 
-.intro p{
+.intro p {
 	text-align: center;
 	font-size: 1.5rem;
 	color: #ffffff;
+}
 
+.about-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5em;
+}
+
+.about-1-items {
+	width: 40%;
+}
+
+.about-1-items img {
+	width: 500px;
+	display: block;
+}
+
+.about-1-items h2 {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 3rem;
+	color: #525252;
+	margin-bottom: 5%;
+}
+
+.about-1-items ul {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #525252;
+}
+
+.store {
+	padding: 5% 2%;
+	background-color: rgb(249, 236, 225);
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}
+
+.store .store-text {
+	font-family: "Amazon Ember", sans-serif;
+	color: rgba(82, 82, 82, 1);
+}
+
+.store-text h2 {
+	font-size: 2rem;
+	margin-bottom: 5%;
+}
+
+.store-text span {
+	text-decoration: underline;
+	margin-right: 5%;
+}
+
+.store div:nth-child(2) {
+	object-fit: cover;
+	background: url(/assets/Mask\ group-2.svg) no-repeat center/cover;
+	width: 322px;
+	height: 507px;
+	border-radius: 10px;
+}
+
+.store div:nth-child(3) {
+	background: url(/assets/Mask\ group-3.svg) no-repeat center/cover;
+	width: 322px;
+	height: 507px;
+	border-radius: 10px;
+}
+
+.store div:nth-child(4) {
+	background: url(/assets/Mask\ group-4.svg) no-repeat center/cover;
+	width: 322px;
+	height: 507px;
+	border-radius: 10px;
+}
+
+.store .store-items {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.store .store-items p {
+	text-align: center;
+	color: #ffffff;
+	font-size: 1.3rem;
+	margin-bottom: 3%;
 }
