@@ -208,14 +208,16 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5%;
+	padding: 4rem 2rem;
+	gap: 4rem;
 }
 
 .choose-items {
 	width: 40%;
 }
 
-.choose-us .choose-items h2 {
+.choose-us .choose-items h2,
+.about-us-items h2 {
 	font-family: "Amazon Ember";
 	font-style: normal;
 	font-weight: 500;
@@ -235,4 +237,51 @@ body {
 .choose-items img {
 	width: 500px;
 	display: block;
+}
+
+.about-us {
+	background: rgba(249, 236, 225, 1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 2rem;
+	gap: 1rem;
+}
+
+.about-us-items img{
+	width: 90%;
+}
+
+.sam-josh {
+	display: flex;
+	align-items: center;
+}
+
+.josh-item h4 {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #525252;
+	margin-bottom: 5%;
+}
+
+.josh-item span {
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	color: #9e9e9e;
+}
+
+.josh-item img{
+width: 80%;
+}
+
+.about-us-items p{
+	font-family: "Amazon Ember";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #525252;
 }
